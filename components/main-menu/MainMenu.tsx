@@ -123,7 +123,6 @@ class MainMenu extends Component<MainMenuPropsI> {
 
     onResize = () => {
         this.selectCurrentLink();
-        console.log('Изменение размера');
     }
 
     componentDidMount() {

@@ -21,9 +21,6 @@ class SectionMenu extends Component<SectionMenuPropsI> {
         const { handleItemClick } = this;
         const { items, currentSectionIndex } = this.props;
 
-        console.log('Рендер SectionList');
-        
-
         return (
             <div className="section-menu">
                 <ul className="list section-menu__list">
