@@ -26,8 +26,6 @@ class Layout extends Component {
 
                     height: 100%;
                     min-width: 1224px;
-                    
-                    overflow-y: scroll;
                     min-height: 700px;
 
                     padding: 25px 25px 22px 25px;
