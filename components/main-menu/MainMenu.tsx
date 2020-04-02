@@ -121,8 +121,18 @@ class MainMenu extends Component<MainMenuPropsI> {
         });
     }
 
+    onResize = () => {
+        this.selectCurrentLink();
+        console.log('Изменение размера');
+    }
+
     componentDidMount() {
         this.selectCurrentLink();
+        window.addEventListener('resize', this.onResize);
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('resize', this.onResize);
     }
 
     /** Подсвечивает ссылку в зависимости от текущего роута */

@@ -25,6 +25,9 @@ class Layout extends Component {
                     justify-content: space-between;
 
                     height: 100%;
+                    min-width: 1224px;
+                    min-height: 700px;
+
                     padding: 25px 25px 22px 25px;
                     box-sizing: border-box;
                 }

@@ -175,6 +175,16 @@ class MainContent extends Component<MainContentPropsI, MainContentStateI> {
                     position: relative;
                 }
 
+                @media screen and (max-width : 1300px) {
+                    .description-b__description {
+                        text-align: center;
+                    }
+
+                    .description-b__pages {
+                        left: 30px;
+                    }
+                }
+
                 .description-b__description {
                     transform: translateY(${defaultDescriptionPosition}px);
                     opacity: ${defaultDescriptionPosition === 0 ? 1 : 0};
